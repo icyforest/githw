@@ -43,7 +43,7 @@ void tip1(int c) {
 void tip2(void) {
 	printf("so you wanna find a number\n");
 	printf("remember the number should be no more than 2147483647 ");
-	printf("and above 2147483648\n");
+	printf("and above -2147483648\n");
 	return;
 }
 void ope1(dot *heat) {
@@ -108,7 +108,7 @@ int main() {
 		lis[hea->num].nex = hea;
 	}
 	while (1) {
-		printf("input 1 to exchange\ninput 2 to search\n");
+		printf("input 1 to reverse\ninput 2 to search\n");
 		printf("input 3 to check the linklist\n");
 		printf("input other letters to end the program\n");
 		getchar();
